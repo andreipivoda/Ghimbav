@@ -10,7 +10,12 @@ body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-mat-grid-tile {
-    /* width: 100% !important; */
-    /* height: 100% !important; */
+
+/* .app-header {
+    height: 9vh;
+} */
+
+.footer {
+    height: 2vh;
+    background-color: brown;
 }
