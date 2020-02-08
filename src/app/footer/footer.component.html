@@ -1,10 +1,15 @@
 <div class="footer">
-    <div style="float:left;padding-left:20vw;">
-        <i class="material-icons">home</i>
-        <div style="margin-top:-1vh;margin-left:-2vw !important;">Acasa</div>
-    </div>
-    <div style="float:right;padding-right:20vw;">
-        <i class="material-icons list">list</i>
-        <div style="margin-top:-1vh;">544</div>
+    <a [routerLink]="['/']">
+        <div style="float:left;padding-left:20vw;">
+            <i class="material-icons">home</i>
+            <div style="margin-top:-1vh;margin-left:-2vw;">Acasa</div>
+        </div>
+    </a>
+
+    <div style="float:right;padding-right:10vw;">
+        <a [routerLink]="['/answers']">
+            <i class="material-icons list">list</i>
+            <div style="margin-top:-1vh;margin-left:-5vw">Legea 544</div>
+        </a>
     </div>
 </div>

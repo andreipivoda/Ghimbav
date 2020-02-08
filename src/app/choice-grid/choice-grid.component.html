@@ -1,14 +1,14 @@
 <mat-grid-list cols="2" rowHeight="42vh">
     <mat-grid-tile style="background: lightblue; ">
-        <app-card></app-card>
+        <app-card [routerLink]="['/healthy']" [letter]="'1'" [title]="'Sanatos'"></app-card>
     </mat-grid-tile>
     <mat-grid-tile style="background: blue; ">
-        <app-card></app-card>
+        <app-card [routerLink]="['/educated']" [letter]="'2'" [title]="'Educat'"></app-card>
     </mat-grid-tile>
     <mat-grid-tile style="background: pink; ">
-        <app-card></app-card>
+        <app-card [routerLink]="['/modern']" [letter]="'3 '" [title]="'Modern'"></app-card>
     </mat-grid-tile>
     <mat-grid-tile style="background: yellowgreen; ">
-        <app-card></app-card>
+        <app-card [routerLink]="['/good']" [letter]=" '4' " [title]="'Bun'"></app-card>
     </mat-grid-tile>
 </mat-grid-list>

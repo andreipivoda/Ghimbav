@@ -5,6 +5,10 @@ body {
     height: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
@@ -14,8 +18,3 @@ body {
 /* .app-header {
     height: 9vh;
 } */
-
-.footer {
-    height: 2vh;
-    background-color: brown;
-}

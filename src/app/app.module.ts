@@ -19,6 +19,7 @@ import { ModernComponent } from './modern/modern.component';
 import { GoodComponent } from './good/good.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { TownhallanswersComponent } from './townhallanswers/townhallanswers.component';
 // ***********
 
 
@@ -32,7 +33,8 @@ import { FooterComponent } from './footer/footer.component';
     ModernComponent,
     GoodComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    TownhallanswersComponent
   ],
   imports: [
     BrowserModule,
