@@ -10,11 +10,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { LayoutModule } from '@angular/cdk/layout';
-
+import { MatCardModule } from '@angular/material/card';
+import { CardComponent } from './card/card.component';
 // ***********
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +26,8 @@ import { LayoutModule } from '@angular/cdk/layout';
     BrowserAnimationsModule,
     HttpClientModule,
     MatGridListModule,
-    LayoutModule
+    LayoutModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

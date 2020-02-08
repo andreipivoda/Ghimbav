@@ -14,12 +14,12 @@ export class AppComponent {
       Breakpoints.HandsetLandscape,
       Breakpoints.HandsetPortrait
     ]).subscribe(result => {
-      if (!result.matches) {
-       console.log(result)
+      if (result.matches) {
+        console.log(result)
       }
     });
 
     console.log('result')
   }
-  
+
 }
